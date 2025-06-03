@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.background-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("assets/group-people-working-out-business-plan-office.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.background-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(13, 109, 253, 0.587);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.btn-primary {
+  background-color: #289ee4 !important;
+  border-color: #289ee4 !important;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1f7ec1 !important; /* a slightly darker blue */
+  border-color: #1f7ec1 !important;
+  box-shadow: 0 0 8px rgba(40, 158, 228, 0.6); /* subtle glow */
+}
