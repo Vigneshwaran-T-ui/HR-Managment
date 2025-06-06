@@ -1,0 +1,16 @@
+.stat-card {
+  min-width: 220px;
+  height: 80px;
+  transition: all 0.2s ease-in-out;
+
+  .number-box {
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+  }
+
+  .text-box {
+    font-size: 0.95rem;
+    color: #333;
+  }
+}
