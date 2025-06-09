@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^32.3.5",
     "@angular/build": "^19.2.14",
     "@angular/cli": "^19.2.14",
     "@angular/common": "^19.2.14",
@@ -21,6 +22,8 @@
     "@angular/router": "^19.2.14",
     "@ng-bootstrap/ng-bootstrap": "^18.0.0",
     "@popperjs/core": "^2.11.8",
+    "ag-grid-angular": "^33.3.2",
+    "ag-grid-community": "^33.3.2",
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
     "json-server": "^1.0.0-beta.3",
@@ -30,6 +33,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.2.14",
+    "@types/bootstrap": "^5.2.10",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.7.0",
     "karma": "~6.4.0",

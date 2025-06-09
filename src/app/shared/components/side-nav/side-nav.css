@@ -14,5 +14,8 @@
 .custom-sidebar .nav-link.active {
   background-color: #289ee4;
   color: white;
-  /* font-weight: 500; */
+}
+
+.custom-sidebar .nav-link.active i {
+  color: white !important;
 }

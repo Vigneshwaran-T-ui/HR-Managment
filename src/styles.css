@@ -286,3 +286,13 @@ body.dark-mode .dark-mode-toggle i {
   transform: translateY(1px); /* 👈 subtle nudge to center vertically */
   transition: transform 0.5s ease, color 0.4s ease;
 }
+
+/* Dark mode override */
+.dark-mode .stat-card {
+  --card-text-color: #f1f1f1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}

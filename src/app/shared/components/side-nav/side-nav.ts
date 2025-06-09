@@ -29,21 +29,26 @@ export class SideNav {
       link: 'employees',
     },
     {
-      label: 'My Leaves',
+      label: 'Leave Management',
       icon: 'bi bi-kanban-fill',
-      link: 'my-leaves',
-      // children: [
-      //   {
-      //     label: 'Apply Leave',
-      //     icon: 'bi bi-pencil-square small text-muted',
-      //     link: '/leave-management/apply',
-      //   },
-      //   {
-      //     label: 'Leave History',
-      //     icon: 'bi bi-clock-history small text-muted',
-      //     link: '/leave-management/history',
-      //   },
-      // ],
+      link: 'leave',
+      children: [
+        {
+          label: 'Apply Leave',
+          icon: 'bi bi-pencil-square small text-muted',
+          link: 'leaves/apply-leave',
+        },
+        {
+          label: 'My Leaves',
+          icon: 'bi bi-person-check small text-muted',
+          link: 'leaves/my-leaves',
+        },
+        {
+          label: 'Leave History',
+          icon: 'bi bi-clock-history small text-muted',
+          link: 'leaves/history',
+        },
+      ],
     },
     {
       label: 'Announcements',
